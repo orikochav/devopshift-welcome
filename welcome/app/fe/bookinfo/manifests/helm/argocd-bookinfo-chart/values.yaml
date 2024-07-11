@@ -6,7 +6,7 @@ argoApplication:
   project: default
   repoURL: 'https://github.com/orikochav/devopshift-welcome.git'
   path: ./welcome/app/fe/bookinfo/manifests/helm/bookinfo-chart
-  targetRevision: argocd-workshop
+  targetRevision: master
   server: 'https://kubernetes.default.svc'
   namespace: default
   prune: true
